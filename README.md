@@ -14,17 +14,16 @@
 
 
 ### Status Atual do Projeto
-<p>[ ] - Planejamento do Projeto: Definir requisitos e funcionalidades principais.</p>
-<p>[ ] - Configuração do Repositório: Criar repositório GitHub e configurar ambiente local.</p>
-<p>[ ] - Desenvolvimento do Frontend: Criar interface em React, configurar Tailwind CSS.</p>
-<p>[ ] - Criação do Backend: Configurar Django, implementar rotas, criar lógica da aplicação.</p>
-<p>[ ] - Banco de Dados: Configurar Banco de Dados para armazenar dados dos roteiros.</p>
-<p>[ ] - Geração de PDFs: Implementar biblioteca para exportar roteiros em PDF.</p>
-<p>[ ] - Integração Frontend/Backend: Conectar front-end ao back-end via API.</p>
-<p>[ ] - Testes Básicos: Realizar testes de funcionalidade.</p>
-<p>[ ] - Deploy do MVP: Lançar frontend e backend em serviços de nuvem.</p>
-<p>[ ] - Ajustes Finais: Corrigir bugs e otimizar a experiência do usuário.</p>
-
+- [ ] Planejamento do Projeto: Definir requisitos e funcionalidades principais.
+- [ ] Configuração do Repositório: Criar repositório GitHub e configurar ambiente local.
+- [ ] Desenvolvimento do Frontend: Criar interface em React, configurar Tailwind CSS.
+- [ ] Criação do Backend: Configurar Django, implementar rotas, criar lógica da aplicação.
+- [ ] Banco de Dados: Configurar Banco de Dados para armazenar dados dos roteiros.
+- [ ] Geração de PDFs: Implementar biblioteca para exportar roteiros em PDF.
+- [ ] Integração Frontend/Backend: Conectar front-end ao back-end via API.
+- [ ] Testes Básicos: Realizar testes de funcionalidade.
+- [ ] Deploy do MVP: Lançar frontend e backend em serviços de nuvem.
+- [ ] Ajustes Finais: Corrigir bugs e otimizar a experiência do usuário.
 ## Licença
 
 Este projeto é proprietário e não está disponível para uso público ou comercial sem autorização expressa.
