@@ -9,9 +9,19 @@ export default {
   theme: {
     extend: {
       colors: {
+        primary: "var(--primary)",
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      borderColor: {
+        input: "#D9D9D9",
+      },
+      fontFamily: {
+        robotoSerif: "var(--font-roboto-serif)"
+      },
+      backgroundImage: {
+        login: "url(/login.jpg)"
+      }
     },
   },
   plugins: [],

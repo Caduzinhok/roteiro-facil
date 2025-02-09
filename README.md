@@ -24,6 +24,7 @@
 - [ ] Testes Básicos: Realizar testes de funcionalidade.
 - [ ] Deploy do MVP: Lançar frontend e backend em serviços de nuvem.
 - [ ] Ajustes Finais: Corrigir bugs e otimizar a experiência do usuário.
+
 ## Licença
 
 Este projeto é proprietário e não está disponível para uso público ou comercial sem autorização expressa.

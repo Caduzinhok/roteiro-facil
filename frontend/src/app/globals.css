@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+:root {
+    --primary: #124E78;
+    --font-roboto-serif: "Roboto Serif", serif;
+}
