@@ -7,14 +7,15 @@ interface CardProps {
 }
 export default function Card({ image, destination, description }: CardProps) {
     return (
-        <div className="flex flex-col w-full max-w-80 border shadow-sm rounded-md">
-            <Image
-                src={image}
-                alt={destination}
-                width={100}
-                height={100}
-                layout="responsive"
-                className="object-cover rounded-t-md" />
+        <div className="flex flex-col bg-white w-full max-w-80 border shadow-sm rounded-md transition-transform hover:-translate-y-4 duration-500 ease-in-out">
+            <div className="w-full h-[250px]">
+                <Image
+                    src={image}
+                    alt={destination}
+                    width={400}
+                    height={250}
+                    className="object-cover w-full h-full rounded-t-md" />
+            </div>
             <div className="px-2 py-2 py">
                 <h2 className="text-xl text-slate-900">
                     {destination}
