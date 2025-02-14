@@ -1,5 +1,5 @@
 import Card from "@/components/card";
-import Navbar from "@/components/navbar";
+import Navbar from "@/components/root/navbar";
 import Link from "next/link";
 
 const cards = [
