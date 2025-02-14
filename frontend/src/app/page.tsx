@@ -1,5 +1,6 @@
 import Card from "@/components/card";
 import Navbar from "@/components/navbar";
+import Link from "next/link";
 
 const cards = [
   {
@@ -19,7 +20,7 @@ const cards = [
   },
 ]
 
-export default function Home() {
+export default function Page() {
   return (
     <div className="flex flex-col w-full max-w-screen">
       <Navbar />
@@ -33,7 +34,9 @@ export default function Home() {
           </p>
           <div>
             <button className="px-4 py-4 border-2 border-slate-600 rounded-lg font-semibold text-xl text-primary transition-transform duration-75 hover:bg-primary hover:text-white">
-              Crie um Roteiro agora!
+              <Link href="/login">
+                Crie um Roteiro agora!
+              </Link>
             </button>
           </div>
         </div>
