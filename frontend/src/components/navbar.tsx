@@ -5,7 +5,7 @@ export default function Navbar() {
     const user = 'C';
     return (
 
-        <div className="flex justify-between items-center h-24 px-8">
+        <nav className="flex justify-between items-center h-24 px-10 border border-b-slate-200">
             <Logo />
             <div className="flex items-center w-1/3 border-2 border-slate-100 rounded-md">
                 <input className="w-full px-4 py-2 outline-none text-sm" placeholder="Pesquisar Roteiros..." />
@@ -22,6 +22,6 @@ export default function Navbar() {
                     {user}
                 </div>
             </div>
-        </div>
+        </nav>
     )
 }
